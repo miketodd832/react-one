@@ -176,7 +176,7 @@ HEADER / ABOUT US ↓
 header .row {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 40px
 }
@@ -194,10 +194,14 @@ header .row {
 }
 
 .header__img {
+    margin-top: -210px;
+    display: flex;
+    margin-left:auto;
     flex: 1;
-    max-width: 500px;
+    max-width: 750px;
     height: auto;
     object-fit: contain;
+    margin-right: 60px;
 }
 
 
