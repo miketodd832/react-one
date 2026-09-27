@@ -175,10 +175,10 @@ HEADER / ABOUT US ↓
 
 header .row {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px
 }
 
 .header__title {
@@ -191,6 +191,13 @@ header .row {
     margin: 0;
     font-size: 18px;
     padding: 15px 0 ;
+}
+
+.header__img {
+    flex: 1;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
 }
 
 
