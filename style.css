@@ -205,7 +205,7 @@ header .row {
     display: flex;
     margin-left:auto;
     flex: 0 auto;
-    max-width: 740px;
+    max-width: 700px;
     height: auto;
     object-fit: contain;
 }
