@@ -237,11 +237,17 @@ header .row {
 }
 
 .header__customers {
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
-.customers__logo {
-   
+.trusted__customers {
+    font-size: 15px;
+}
+
+.customers__logo img {
+   max-width: 320px;
+   height: 30px;
+   margin-top: 8px;
 }
 
 
