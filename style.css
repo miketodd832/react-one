@@ -326,23 +326,25 @@ QUALITY WORK ↓
 */
 
 .quality__container {
+    display: flex;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .quality__row {
     max-width: 50%;
+    text-align: center;
+}
+
+.quality__title {
+    font-size: 50px;
+    font-weight: 800;
+    padding: 20px;
 }
 
 .quality__picture {
     max-width: 50%;
-}
-
-
-#quality .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
 
