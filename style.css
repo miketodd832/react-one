@@ -325,6 +325,19 @@ QUALITY WORK ↓
 
 */
 
+.quality__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quality__row {
+    max-width: 50%;
+}
+
+.quality__picture {
+    max-width: 50%;
+}
+
 
 #quality .row {
     display: flex;
