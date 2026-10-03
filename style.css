@@ -334,6 +334,13 @@ QUALITY WORK ↓
     max-width: 1280px;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+}
+
+.quality__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quality__info--container {
@@ -344,6 +351,7 @@ QUALITY WORK ↓
 
 .quality__sub--title {
     font-size: 24px;
+
 }
 
 .quality__title {
@@ -367,8 +375,8 @@ QUALITY WORK ↓
     width: 150px;
 }
 
-.quality__picture {
-    max-width: 50%;
+.quality__picture--container {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: right;
