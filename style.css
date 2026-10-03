@@ -339,8 +339,7 @@ QUALITY WORK ↓
 
 .quality__row {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .quality__info--container {
@@ -357,19 +356,19 @@ QUALITY WORK ↓
 .quality__title {
     font-size: 48px;
     font-weight: 900;
-    padding: 24px 0;
+    padding: 24px 0px 40px 0px;
 }
 
 .quality__para {
     line-height: 1.5;
     font-size: 18px;
-    padding-bottom: 40px;
-    max-width: 540px;
+    padding-bottom: 45px;
+    max-width: 560px;
 }
 
 .quality__button {
     border-radius: 24px;
-    padding: 12px 24px;
+    padding: 11px 22px;
     background-color: #6415ff;
     color: white;
     width: 150px;
@@ -377,6 +376,7 @@ QUALITY WORK ↓
 
 .quality__picture--container {
     max-width: 603.2px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -419,14 +419,18 @@ QUALITY WORK ↓
 }
 
 .quality__link {
-    font-size: 12px;
+    font-size: 10px;
     text-decoration: none;
-    margin-left: 16px;
+    margin-left: 20px;
     list-style-type: none;
 }
 
 .quality__sign--up__button {
     margin-left: 10px;
+    background-color: #6415ff;
+    color: white;
+    border: none;
+    padding: 4px 10px;
 }
 
 .quality__header--img {
@@ -435,41 +439,51 @@ QUALITY WORK ↓
 }
 
 .quality__customers--logo img{
-    max-width: 300px;
+    max-width: 220px;
+    padding-top: 8px;
 }
 
 .quality__header--title {
     font-size: 25px;
     font-weight: 800;
+    padding-top: 65px;
 }
 
-.quality__header--para {
-    width: 250px;
-    font-size: 12px;
+.quality__header--para {                                      
+    width: 280px;
+    font-size: 11px;
+    padding: 12px 0px 16px 0px;
+
 }
 
 .quality__header--email__button {
     display: flex;
     align-items: center;
     position: relative;
-    padding-top: 6px;
 }
 
 .quality__submit--button {
     background-color: #6415ff;
     color: white;
     border: none;
-    padding: 6px 15px;
+    padding: 8px 25px;
     border-radius: 32px;
-    margin-left: -108px;
+    margin-left: -100px;
+    font-size: 10px;
 }
 
 .quality__email--input {
-    padding:6px 16px;
+    padding:8px 20px;
     outline: none;
     border-radius: 38px;
-    padding-right: 80px;
+    padding-right: 70px;
     border: 2px solid #ccc;
+    font-size: 10px;
+}
+
+.quality__trusted--customers {
+    font-size: 10px;
+    padding-top: 60px;
 }
 
 
