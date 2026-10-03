@@ -325,17 +325,21 @@ QUALITY WORK ↓
 
 */
 
-.quality__container {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
+#quality {
+    position: relative;
 }
 
-.quality__row {
-    max-width: 50%;
-    text-align: left;
+
+.quality__info--row {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+}
+
+.quality__info--container {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .quality__sub--title {
@@ -360,13 +364,14 @@ QUALITY WORK ↓
     padding: 12px 24px;
     background-color: #6415ff;
     color: white;
+    width: 150px;
 }
 
 .quality__picture {
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex;
+    justify-content: right;
 }
 
 .quality__nav--logo img{
@@ -379,26 +384,81 @@ QUALITY WORK ↓
 }
 
 .quality__nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
 }
 
 .quality__nav--row {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
+
+.quality__link--container {
+    display: flex;
+}
+
 
 .quality__links {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: right;
+    align-items: center;
 }
 
 .quality__link {
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
+    margin-left: 16px;
+    list-style-type: none;
 }
+
+.quality__sign--up__button {
+    margin-left: 10px;
+}
+
+.quality__header--img {
+    max-width: 400px;
+
+}
+
+.quality__customers--logo img{
+    max-width: 300px;
+}
+
+.quality__header--title {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.quality__header--para {
+    width: 250px;
+    font-size: 12px;
+}
+
+.quality__header--email__button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 6px;
+}
+
+.quality__submit--button {
+    background-color: #6415ff;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 32px;
+    margin-left: -108px;
+}
+
+.quality__email--input {
+    padding:6px 16px;
+    outline: none;
+    border-radius: 38px;
+    padding-right: 80px;
+    border: 2px solid #ccc;
+}
+
 
 
 /* 
