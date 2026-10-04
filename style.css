@@ -326,6 +326,7 @@ QUALITY WORK ↓
 */
 
 #quality {
+    display: flex;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -414,10 +415,15 @@ QUALITY WORK ↓
     padding: 4px 10px;
 }
 
+.quality__header--content {
+    display: flex;
+    align-items: flex;
+}
+
 .quality__header--img {
+    display: flex;
     max-width: 300px;
-
-
+    padding-top: 95px;
 }
 
 .quality__customers--logo img{
@@ -590,6 +596,10 @@ MOBILE RESPONSIVENESS ↓
 
 @media (max-width: 800px) {
     .nav__links {
+        display: none;
+    }
+
+    .quality__nav--row {
         display: none;
     }
     
