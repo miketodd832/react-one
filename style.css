@@ -327,11 +327,13 @@ QUALITY WORK ↓
 
 #quality {
     display: flex;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 .quality__row {
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     align-items: flex-start;
 }
@@ -371,6 +373,7 @@ QUALITY WORK ↓
     display: flex;
     flex-direction: column;
     width: 50%;
+    padding-left: 25px;
 }
 
 .quality__nav--logo img{
@@ -384,7 +387,7 @@ QUALITY WORK ↓
 
 .quality__nav--row {
     display: flex;
-    max-width: 603.2px;
+    max-width: 100%;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -422,8 +425,8 @@ QUALITY WORK ↓
 
 .quality__header--img {
     display: flex;
-    max-width: 300px;
-    padding-top: 95px;
+    max-width: 265px;
+    padding: 90px 0px 0px 25px;
 }
 
 .quality__customers--logo img{
@@ -432,14 +435,14 @@ QUALITY WORK ↓
 }
 
 .quality__header--title {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
-    padding-top: 65px;
+    padding-top: 45px;
 }
 
-.quality__header--para {                                      
+.quality__header--para {                                    
     width: 280px;
-    font-size: 11px;
+    font-size: 10px;
     padding: 12px 0px 16px 0px;
 
 }
@@ -454,14 +457,14 @@ QUALITY WORK ↓
     background-color: #6415ff;
     color: white;
     border: none;
-    padding: 8px 25px;
+    padding: 6px 20px;
     border-radius: 32px;
-    margin-left: -100px;
+    margin-left: -90px;
     font-size: 10px;
 }
 
 .quality__email--input {
-    padding:8px 20px;
+    padding:6px 15px;
     outline: none;
     border-radius: 38px;
     padding-right: 70px;
@@ -471,7 +474,7 @@ QUALITY WORK ↓
 
 .quality__trusted--customers {
     font-size: 10px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 
@@ -574,6 +577,28 @@ MOBILE RESPONSIVENESS ↓
     }
 }
 
+@media (max-width: 1240px) {
+
+    #quality {
+        justify-content: center;
+    }
+
+   .quality__row {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .quality__info--container {
+       width: 100%;
+       text-align: center;
+       margin-bottom: 40px;
+    }
+
+    .quality__container--two {
+       width: 100%;
+       align-items: center;
+    }
+}
 @media (max-width: 1024px) {
 
     .btn__menu {
