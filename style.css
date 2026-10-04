@@ -345,28 +345,28 @@ QUALITY WORK ↓
 }
 
 .quality__sub--title {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .quality__title {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
-    padding: 24px 0px 40px 0px;
+    padding: 15px 0px 10px 0px;
 }
 
 .quality__para {
     line-height: 1.5;
-    font-size: 18px;
-    padding-bottom: 45px;
+    font-size: 16px;
+    padding-bottom: 30px;
     max-width: 560px;
 }
 
 .quality__button {
     border-radius: 24px;
-    padding: 11px 22px;
+    padding: 10px 18px;
     background-color: #6415ff;
     color: white;
-    width: 150px;
+    width: 120px;
 }
 
 .quality__container--two {
@@ -377,7 +377,7 @@ QUALITY WORK ↓
 }
 
 .quality__nav--logo img{
-    height: 30px;
+    height: 20px;
 }
 
 .quality__nav--logo {
@@ -415,18 +415,19 @@ QUALITY WORK ↓
     background-color: #6415ff;
     color: white;
     border: none;
-    padding: 4px 10px;
+    padding: 3px 8px;
+    font-size: 10px;
 }
 
 .quality__header--content {
     display: flex;
-    align-items: flex;
+    align-items: flex-start;
 }
 
 .quality__header--img {
     display: flex;
     max-width: 265px;
-    padding: 90px 0px 0px 25px;
+    padding: 80px 0px 0px 35px;
 }
 
 .quality__customers--logo img{
