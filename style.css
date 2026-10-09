@@ -377,6 +377,8 @@ QUALITY WORK ↓
     width: 100%;
     align-items: center;
     justify-content: center;
+    border: 2px solid #000;
+    padding:10px 10px 30px 10px
 }
 
 .quality__nav--logo img{
@@ -495,6 +497,31 @@ QUALITY WORK ↓
     margin-left: auto;
 }
 
+.decor__box {
+    position: relative;
+    bottom: -20%;
+    right: -52.5%;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid purple;
+    border-radius: 0;
+    display: grid;
+    grid-template-columns: repeat (4px, 1fr);
+    grid-template-rows: repeat (4px, 1fr);
+    gap: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.quality__decorator--box .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #6415ff;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
 
 /* 
 
