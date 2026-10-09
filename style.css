@@ -329,6 +329,7 @@ QUALITY WORK ↓
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
+    padding: 96px;
 }
 
 .quality__row {
@@ -432,13 +433,6 @@ QUALITY WORK ↓
     width: 100%;
 }
 
-.quality__header--img {
-    display: flex;
-    max-width: 100%;
-    width: 25%;
-    padding: 30px;
-}
-
 .quality__customers--logo img{
     max-width: 220px;
     padding-top: 8px;
@@ -490,8 +484,16 @@ QUALITY WORK ↓
 .quality__img--container {
     order: 2;
     flex-shrink: 0;
+    width: 50%;
 }
 
+.quality__header--img {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 70px;
+    margin-left: auto;
+}
 
 
 /* 
