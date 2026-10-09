@@ -419,15 +419,22 @@ QUALITY WORK ↓
     font-size: 10px;
 }
 
+.quality__text--section {
+    align-items: flex-start;
+}
+
 .quality__header--content {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .quality__header--img {
     display: flex;
-    max-width: 265px;
-    padding: 80px 0px 0px 35px;
+    max-width: 100%;
+    width: 50%;
+    padding: 20px;
 }
 
 .quality__customers--logo img{
@@ -518,7 +525,22 @@ STEPS ↓
 .steps__header--img {
     max-width: 1200px;
     width: 50%;
-}   
+} 
+
+.steps__nav--row {
+    width: 100%;
+    display: flex;
+}
+
+.steps__nav--links {
+    list-style-type: none;
+    display: flex;
+    font-size: small;
+}
+
+.steps__nav--link {
+    text-decoration: none;
+}
 /* 
 
 VALUES ↓
