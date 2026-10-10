@@ -507,8 +507,7 @@ QUALITY WORK ↓
     border: 2px solid purple;
     border-radius: 0;
     display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    grid-template-rows: repeat(4, 4fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0;
     padding: 15px;
     box-sizing: border-box;
