@@ -379,7 +379,6 @@ QUALITY WORK ↓
     justify-content: center;
     border: 2px solid #000;
     padding:10px 10px 0px 10px;
-    margin-bottom: -75px;
 }
 
 .quality__nav--logo img{
@@ -414,6 +413,8 @@ QUALITY WORK ↓
     text-decoration: none;
     margin-left: 20px;
     list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
 .quality__sign--up__button {
@@ -449,7 +450,7 @@ QUALITY WORK ↓
     padding-top: 45px;
 }
 
-.quality__header--para {                                    
+.quality__header--para {               
     width: 280px;
     font-size: 10px;
     padding: 12px 0px 16px 0px;
