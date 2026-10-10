@@ -336,12 +336,13 @@ QUALITY WORK ↓
     max-width: 1200px;
     width: 100%;
     display: flex;
+    max-height: 420px;
 }
 
 .quality__info--container {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 40%;
     width: 100%;
 }
 
@@ -380,7 +381,7 @@ QUALITY WORK ↓
     justify-content: center;
     border: 2px solid #000;
     padding:10px 10px 0px 10px;
-    z-index: 5;
+    z-index: 0;
 }
 
 .quality__nav--logo img{
@@ -439,6 +440,7 @@ QUALITY WORK ↓
     display: flex;
     align-items: flex-start;
     width: 100%;
+    z-index: 5;
 }
 
 .quality__customers--logo img{
@@ -493,6 +495,7 @@ QUALITY WORK ↓
     order: 2;
     flex-shrink: 0;
     width: 50%;
+    z-index: 5;
 }
 
 .quality__header--img {
@@ -501,6 +504,7 @@ QUALITY WORK ↓
     width: 100%;
     padding-top: 70px;
     margin-left: auto;
+    z-index: 5;
 }
 
 .decor__box {
@@ -535,7 +539,7 @@ STEPS ↓
 */
 
 .steps__container {
-    padding-top: 150px;
+
 }
 
 .steps__container--one {
