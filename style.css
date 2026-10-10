@@ -327,16 +327,20 @@ QUALITY WORK ↓
 
 #quality {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding: px;
+    padding: 80px 0;
 }
 
 .quality__row {
     max-width: 1200px;
     width: 100%;
     display: flex;
-    max-height: 420px;
+    justify-content: center;
+    align-items: center;
 }
 
 .quality__info--container {
@@ -537,10 +541,6 @@ QUALITY WORK ↓
 STEPS ↓
 
 */
-
-.steps__container {
-
-}
 
 .steps__container--one {
     width: 50%;
