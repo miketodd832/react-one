@@ -341,7 +341,6 @@ QUALITY WORK ↓
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    z-index: 10;
 }
 
 .quality__info--container {
@@ -350,6 +349,7 @@ QUALITY WORK ↓
     max-width: 50%;
     width: 100%;
     justify-content: center;
+    overflow: hidden;
 }
 
 
@@ -389,7 +389,6 @@ QUALITY WORK ↓
     justify-content: center;
     border: 2px solid #000;
     padding:10px 10px 20px 10px;
-    z-index: 100;
 }
 
 
@@ -516,8 +515,8 @@ QUALITY WORK ↓
 
 .decor__box {
     position: relative;
-    bottom: -73px;
-    right: -52.5%;
+    top: 275px;
+    right: 25px;
     width: 100px;
     height: 100px;
     background-color: transparent;
@@ -527,7 +526,6 @@ QUALITY WORK ↓
     grid-template-columns: repeat(10, 1fr);
     gap: 0;
     box-sizing: border-box;
-    z-index: 1;
 }
 
 .dot {
@@ -536,7 +534,6 @@ QUALITY WORK ↓
     background-color: #6415ff;
     border-radius: 50%;
     align-self: center;
-    z-index: 1;
 }
 
 /* 
