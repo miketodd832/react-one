@@ -9,7 +9,7 @@
 }
 
 body {
-    max-width: 100vw;
+    max-width: 100% vw;
     overflow-x: hidden;
 }
 
@@ -18,13 +18,11 @@ body {
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
 }
 
 .row__narrow {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
 }
 
 .container {
@@ -70,7 +68,7 @@ NAVBAR ↓
 
 
 nav {
-    max-width: 1280px;
+    max-width: 1200px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -203,11 +201,10 @@ HEADER / ABOUT US ↓
 
 */
 
-header .row {
+.header__row {
     display: flex;
-    justify-content: center;
-    gap: 40px;
     align-items: center;
+    justify-content: center;
 }
 
 .header__title { 
@@ -289,6 +286,13 @@ FEATURES ↓
 
 #features {
     position: relative;
+}
+
+.features__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
