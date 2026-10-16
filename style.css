@@ -329,14 +329,25 @@ QUALITY WORK ↓
 
 */
 
-#quality {
+.quality {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1200px;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 30px 0;
+}
+
+.quality__sign--up__button {
+    display: flex;
+    margin-left: 10px;
+    background-color: #6415ff;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    font-size: 8px;
+    align-items: center;
 }
 
 .quality__row {
@@ -344,7 +355,6 @@ QUALITY WORK ↓
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .quality__info--container {
@@ -370,7 +380,7 @@ QUALITY WORK ↓
     flex-direction: column;
     font-size: 35px;
     font-weight: 900;
-    padding: 15px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .quality__para {
@@ -378,7 +388,6 @@ QUALITY WORK ↓
     font-size: 13px;
     padding-bottom: 30px;
     max-width: 85%;
-
 }
 
 .quality__button {
@@ -439,16 +448,6 @@ QUALITY WORK ↓
     align-items: center;
 }
 
-.quality__sign--up__button {
-    display: flex;
-    margin-left: 10px;
-    background-color: #6415ff;
-    color: white;
-    border: none;
-    padding: 3px 8px;
-    font-size: 8px;
-    align-items: center;
-}
 
 .quality__text--section {
     flex: 1;
@@ -462,6 +461,7 @@ QUALITY WORK ↓
 }
 
 .quality__customers--logo img{
+    display: flex;
     max-width: 220px;
     padding-top: 8px;
 }
@@ -473,7 +473,7 @@ QUALITY WORK ↓
 }
 
 .quality__header--para {               
-    width: 280px;
+    max-width: 280px;
     font-size: 10px;
     padding: 12px 0px 16px 0px;
 
@@ -489,19 +489,20 @@ QUALITY WORK ↓
     background-color: #6415ff;
     color: white;
     border: none;
-    padding: 6px 20px;
+    padding: 8px 18px;
     border-radius: 32px;
-    margin-left: -90px;
-    font-size: 10px;
+    margin-left: -60px;
+    font-size: 8px;
 }
 
 .quality__email--input {
-    padding:6px 15px;
+    
+    padding:8px 20px;
     outline: none;
     border-radius: 38px;
-    padding-right: 70px;
+    padding-right: 80px;
     border: 2px solid #ccc;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .quality__trusted--customers {
@@ -789,12 +790,38 @@ MOBILE RESPONSIVENESS ↓
 
 }
 
+@media (max-width: 970px) {
+
+    .quality__email--input {
+       padding: 8px 20px;
+       outline: none;
+       border-radius: 38px;
+       padding-right: 80px;
+       border: 2px solid #ccc;
+       font-size: 8px;
+    }
+
+    .quality__submit--button {
+       background-color: #6415ff;
+       color: white;
+       border: none;
+       padding: 6px 18px;
+       border-radius: 32px;
+       margin-left: -60px;
+       font-size: 8px;
+    }
+}
+
 @media (max-width: 800px) {
     .nav__links {
         display: none;
     }
 
     .quality__nav--row {
+        display: none;
+    }
+
+    .quality__header--img {
         display: none;
     }
     
