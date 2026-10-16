@@ -15,13 +15,13 @@ body {
 
 .row {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .row__narrow {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -34,6 +34,10 @@ body {
 }
 
 section {
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     padding: 0 32px;
 }
 
