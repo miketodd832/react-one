@@ -336,7 +336,7 @@ QUALITY WORK ↓
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 30px 32px;
 }
 
 .quality__sign--up__button {
@@ -364,7 +364,6 @@ QUALITY WORK ↓
     max-width: 50%;
     width: 100%;
     justify-content: center;
-    overflow: hidden;
 }
 
 
@@ -698,6 +697,7 @@ MOBILE RESPONSIVENESS ↓
     }
 
    .quality__row {
+       width: 100%;
        flex-direction: column;
        align-items: center;
     }
@@ -830,7 +830,6 @@ MOBILE RESPONSIVENESS ↓
 
 @media(max-width: 768px){
 
-    #quality .row,
     #values .row {
         flex-direction: column-reverse;
     }
