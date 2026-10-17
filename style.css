@@ -727,7 +727,7 @@ STEPS ↓
     
 }
 
-.container__one--two img {
+.steps__container--one_two img {
     display: flex;
     flex-direction: row;
     max-width: 250px;
