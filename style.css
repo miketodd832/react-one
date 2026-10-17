@@ -612,13 +612,14 @@ STEPS ↓
 }
 
 .steps__container--one {
-    max-width: 600px;
+    max-width: 480px;
     width: 100%;
     display:flex;
     flex-direction: column;
-    border: 20px solid #000;
+    border: 18px solid #000;
     border-radius: 20px;
     padding: 20px 20px 20px 20px;
+    position: relative;
 }
 
 .nav {
@@ -644,6 +645,13 @@ STEPS ↓
     padding-bottom: 40px;
 }
 
+.container__one--one {
+    max-width: 500px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
 .steps__container--one_one {
     display: flex;
     max-width: 300px;
@@ -663,7 +671,7 @@ STEPS ↓
 }
 
 .steps__row {
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -730,10 +738,21 @@ STEPS ↓
 .steps__container--one_two img {
     display: flex;
     flex-direction: row;
-    max-width: 250px;
+    max-width: 350px;
     width: 100%;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
+
+.silver__disc {
+    position: absolute;
+    width: 600px;
+    height: 30px;
+    background-color:silver;
+    border-radius: 50%;
+    bottom: -40px;
+    right: -80px;
+    z-index: -1;
+    }   
     
 
 
