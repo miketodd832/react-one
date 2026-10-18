@@ -20,11 +20,6 @@ body {
     max-width: 1200px;
 }
 
-.row__narrow {
-    width: 100%;
-    max-width: 1200px;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -318,6 +313,8 @@ FEATURES ↓
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .features__title {
@@ -608,20 +605,24 @@ STEPS ↓
 */
 
 #steps {
-    max-width: 1200px;
+    max-width: 1280px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .steps__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+    gap: 40px;
 }
 
 .steps__container--one {
-    max-width: 480px;
+    max-width: 500px;
     width: 100%;
     display:flex;
     flex-direction: column;
@@ -759,11 +760,32 @@ STEPS ↓
     background-color:silver;
     border-radius: 50%;
     bottom: -40px;
-    right: -80px;
+    right: -70px;
     z-index: -1;
-}   
+}
     
+.steps__container--two {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
 
+.step__one, .step__two, .step__three {
+    display: flex;
+}
+
+.step__num--one, .step__num--two, .step__num--three {
+    font-size: 40px;
+    font-weight: 900;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__section--header {
+    padding-bottom: 20px;
+}
 
 
 
