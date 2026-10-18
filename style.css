@@ -610,6 +610,7 @@ STEPS ↓
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    position: relative;
 }
 
 .steps__container {
@@ -792,7 +793,12 @@ STEPS ↓
     flex-direction: column;
 }
 
-
+.steps__page--section { 
+    transform: translateY(-20px); 
+    position: absolute; 
+    bottom: calc(100% + 20px);     
+    
+}
 
 
 
