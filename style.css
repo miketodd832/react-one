@@ -796,8 +796,24 @@ STEPS ↓
 .steps__page--section { 
     transform: translateY(-20px); 
     position: absolute; 
-    bottom: calc(100% + 20px);     
-    
+    bottom: calc(100% + 20px);   
+    left: calc(47.25%);
+}
+
+.steps__section--title {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.step__one--para, .step__two--para, .step__three--para {
+
+   line-height: 1.5;
+   padding-bottom: 30px;
+}
+
+.step__one--topic, .step__two--topic, .step__three--topic {
+    padding-bottom: 10px;
 }
 
 
