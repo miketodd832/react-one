@@ -631,6 +631,7 @@ STEPS ↓
     border-radius: 20px;
     padding: 20px 20px 20px 20px;
     position: relative;
+    height: 320px;
 }
 
 .nav {
@@ -767,8 +768,8 @@ STEPS ↓
     
 .steps__container--two {
     display:flex;
+    align-items: flex-start;
     flex-direction: column;
-    align-items: left;
 }
 
 .step__one, .step__two, .step__three {
@@ -803,7 +804,7 @@ STEPS ↓
 .steps__section--title {
     font-size: 35px;
     font-weight: 900;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .step__one--para, .step__two--para, .step__three--para {
@@ -813,7 +814,7 @@ STEPS ↓
 }
 
 .step__one--topic, .step__two--topic, .step__three--topic {
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 
