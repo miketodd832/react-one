@@ -783,6 +783,15 @@ STEPS ↓
     align-items: center;
 }
 
+.steps__title--section_one {
+    padding-left: 7px;
+}
+
+.steps__one--two_three {
+    display: flex;
+    flex-direction: column;
+}
+
 .steps__section--header {
     padding-bottom: 20px;
 }
