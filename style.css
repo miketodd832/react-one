@@ -279,7 +279,10 @@ HEADER / ABOUT US ↓
 }
 
 .header__email--button {
-    
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: min(100%, 500px);
 }
 
 
@@ -290,8 +293,8 @@ HEADER / ABOUT US ↓
     padding: 16px 34px;
     border-radius: 38px;
     font-size: 16px;
-    margin-left: -160px;
     position: absolute;
+    right: 8px;
     z-index: 1;
 }
 
@@ -299,18 +302,25 @@ HEADER / ABOUT US ↓
     background-color:  rgb(20, 20, 220);
 }
 
+
+
+
 .email__input {
+    width: 100%;
     text-align: left;
     font-size: 16px;
     padding: 22px 190px 22px 20px;
     outline: none;
     border: 2px solid #ccc;
     border-radius: 38px;
-    position: relative
 }
 
 .email__input:hover {
     border-color: darkgrey;
+}
+
+.email__input:hover::placeholder {
+    color: red;
 }
 
 .header__customers {
