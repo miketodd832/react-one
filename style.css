@@ -79,10 +79,11 @@ nav {
 
 .nav__logo .tea {
     font-size: 25px;
+     color: #243e63;
     
 }
 
-.nav__logo .tea:hover {
+.tea:hover {
     color: #6415ff;
 }
 
@@ -118,12 +119,24 @@ nav {
     font-weight: 600;
 }
 
+.nav__link:hover,
+.nav__link:focus {
+    color: #6415ff;
+    text-decoration: underline;
+    text-decoration-thickness: 2;
+    text-underline-offset: 5px;
+}
+
 .sign__up--button {
     border-radius: 20px;
     background-color: #6415ff;
     color: white;
     padding: 8px 20px;
     margin-left: 30px;
+}
+
+.sign__up--button:hover {
+    background-color: rgb(20, 20, 220);
 }
 
 
@@ -267,6 +280,7 @@ HEADER / ABOUT US ↓
     padding-top: 10px;
 }
 
+
 .submit__button {
     display: flex;
     background-color: #6415ff;
@@ -279,12 +293,20 @@ HEADER / ABOUT US ↓
     z-index: 1;
 }
 
+.submit__button:hover {
+    background-color:  rgb(20, 20, 220);
+}
+
 .email__input {
     padding: 16px 40px;
     outline: none;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 38px;
     padding-right: 100px;
+}
+
+.email__input:hover {
+    border-color: darkgrey;
 }
 
 .header__customers {
