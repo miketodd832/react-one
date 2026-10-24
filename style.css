@@ -279,22 +279,18 @@ HEADER / ABOUT US ↓
 }
 
 .header__email--button {
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding-top: 10px;
+    
 }
 
 
 .submit__button {
-    display: flex;
     background-color: #6415ff;
     color: white;
     border: none;
     padding: 16px 34px;
     border-radius: 38px;
     font-size: 16px;
-    margin-left: 278px;
+    margin-left: -160px;
     position: absolute;
     z-index: 1;
 }
@@ -304,11 +300,13 @@ HEADER / ABOUT US ↓
 }
 
 .email__input {
-    padding: 22px 40px 22px 220px;
+    text-align: left;
+    font-size: 16px;
+    padding: 22px 190px 22px 20px;
     outline: none;
     border: 2px solid #ccc;
     border-radius: 38px;
-    position: relative;
+    position: relative
 }
 
 .email__input:hover {
