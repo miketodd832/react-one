@@ -329,12 +329,16 @@ HEADER / ABOUT US ↓
 
 .trusted__customers {
     font-size: 15px;
+    color: rgb(160, 174, 192);
+
 }
 
 .customers__logo img {
-   max-width: 320px;
-   height: 30px;
-   margin-top: 8px;
+   max-width: 680px;
+   width: 100%;
+   padding-top: 12px;
+   filter: grayscale(100%) brightness(1.6);
+   
 }
 
 
@@ -350,6 +354,11 @@ FEATURES ↓
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+}
+
+.features__section {
+    display: flex;
+    flex-direction: column;
 }
 
 .features__row {
@@ -1077,6 +1086,14 @@ MOBILE RESPONSIVENESS ↓
         text-align: center;
     }
 
+    .trusted__customers{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 800;
+        color: rgb(160, 174, 192);
+
+    }
+
     .features__title {
         font-size: 30px;
         flex-direction: row;
@@ -1180,35 +1197,41 @@ MOBILE RESPONSIVENESS ↓
         font-size: 14px;
     }
 
-    .submit__button {
-       background-color: #6415ff;
-       color: white;
-       border: none;
-       padding: 16px 34px;
-       border-radius: 38px;
-       font-size: 16px;
-       position: ;
-       
-       z-index: 1;
+    .header__email--button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        align-items: stretch;
     }
 
     .email__input {
        width: 100%;
-       text-align: left;
-       font-size: 16px;
-       padding: 22px 180px 22px 20px;
-       outline: none;
-       border: 2px solid #ccc;
+       padding: 18px 20px;
        border-radius: 38px;
     }
 
-    .quality__header--email__button {
-       display: flex;
-       align-items: center;
-       position: relativ;
+    .submit__button {
+       padding: 18px 20px;
+       right: auto;
+       width: 100%;
+       border-radius: 38px;
+       position: static;  
     }
 
+    .header__title {
+        font-size: 30px;
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+    }
 
+    .header__para {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        line-height: 1.5;
+    }
 
 }
 
