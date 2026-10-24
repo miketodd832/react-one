@@ -320,7 +320,7 @@ HEADER / ABOUT US ↓
 }
 
 .email__input:hover::placeholder {
-    color: red;
+    color: blue;
 }
 
 .header__customers {
@@ -1179,5 +1179,36 @@ MOBILE RESPONSIVENESS ↓
     .service__para {
         font-size: 14px;
     }
+
+    .submit__button {
+       background-color: #6415ff;
+       color: white;
+       border: none;
+       padding: 16px 34px;
+       border-radius: 38px;
+       font-size: 16px;
+       position: ;
+       
+       z-index: 1;
+    }
+
+    .email__input {
+       width: 100%;
+       text-align: left;
+       font-size: 16px;
+       padding: 22px 180px 22px 20px;
+       outline: none;
+       border: 2px solid #ccc;
+       border-radius: 38px;
+    }
+
+    .quality__header--email__button {
+       display: flex;
+       align-items: center;
+       position: relativ;
+    }
+
+
+
 }
 
