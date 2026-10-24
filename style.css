@@ -465,17 +465,6 @@ QUALITY WORK ↓
     padding: 30px 8px 180px 8px;
 }
 
-.quality__sign--up__button {
-    display: flex;
-    margin-left: 10px;
-    background-color: #6415ff;
-    color: white;
-    border: none;
-    padding: 3px 8px;
-    font-size: 8px;
-    align-items: center;
-}
-
 .quality__row {
     max-width: 1200px;
     width: 100%;
@@ -524,7 +513,6 @@ QUALITY WORK ↓
 
 .quality__container--two {
     max-width: 50%;
-    width: 100%;
 }
 
 
