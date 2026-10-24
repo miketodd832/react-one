@@ -356,7 +356,7 @@ FEATURES ↓
     margin: 0 auto;
 }
 
-.features__section {
+.features__section--row {
     display: flex;
     flex-direction: column;
 }
