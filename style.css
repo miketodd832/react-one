@@ -56,7 +56,7 @@ landing
 
 #landing {
     display: flex;
-    max-width: 1200px;
+    justify-content: center;
     width: 100%;
 }
 
@@ -128,7 +128,6 @@ nav {
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    padding-left: 25px;
 }
 
 .nav__link:hover,
@@ -252,7 +251,7 @@ HEADER / ABOUT US ↓
 
 .header__title { 
     display: block;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 50px;
     line-height: 1.2;
 }
@@ -274,7 +273,7 @@ HEADER / ABOUT US ↓
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 75%;
+    max-width: 60%;
     width: 100%;
     margin-top: 20px;
 }
@@ -284,7 +283,7 @@ HEADER / ABOUT US ↓
     display: flex;
     margin-left:auto;
     flex: 0 auto;
-    max-width: 512px;
+    max-width: 702px;
     width: 100%;
     height: auto;
 }
@@ -448,7 +447,10 @@ FEATURES ↓
     border: 2px solid rgb(240, 226, 240);
     border-radius: 50%;
     padding: 8px;
-    margin-right: 20px;
+}
+
+.service__title--section {
+    padding-left: 20px;
 }
 
 .service__title {
@@ -505,19 +507,20 @@ QUALITY WORK ↓
     font-size: 48px;
     font-weight: 900;
     padding: 10px 0px 10px 0px;
-    max-width: 550px;
+    max-width: 535px;
 }
 
 .quality__para {
     line-height: 1.5;
-    font-size: 13px;
+    font-size: 18px;
     padding-bottom: 30px;
     max-width: 85%;
+    font-weight: 400;
 }
 
 .quality__button {
     border-radius: 24px;
-    padding: 10px 18px;
+    padding: 12px 22px;
     background-color: #6415ff;
     color: white;
     width: 120px;
@@ -976,31 +979,48 @@ MOBILE RESPONSIVENESS ↓
         line-height: 1.5;
     }
 
+    .features__container {
+        align-items: center;
+    }
+
     .features__title {
         font-size: 36px;
     }
 
     .services {
         display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .service {
+        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 100%;
+        max-width: 320px;
     }
 
     .service__img {
        width: 65px;
        height: 65px;
-       border: 2px solid rgb(244, 238, 244);
-       border-radius: 50%;
-       padding: 20px 
+       padding: 20px;
+       margin: 0 0 12px;
+       display: block;
+    }
+
+    .service__title--section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .service__title {
         padding-top: 15px;
+        text-align: center;
     }
 
     .service__para {
@@ -1009,4 +1029,5 @@ MOBILE RESPONSIVENESS ↓
     }
 
 }
+
 
