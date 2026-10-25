@@ -11,6 +11,7 @@
 body {
     max-width: 100% vw;
     overflow-x: hidden;
+    padding: 0px 30px;
 }
 
 .row {
@@ -24,9 +25,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-    padding: 96px 30px;
+    padding: 96px 0px;
 }
 
 .purple {
@@ -38,16 +40,25 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 0 px;
+    padding: 96px 0px;
 }
 
 main {
     margin-bottom: 96px;
+    padding: 0px 0px;
 }
 
+/*
 
+landing
 
+*/
 
+#landing {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
 
 
 
@@ -74,7 +85,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 30px;
+    padding: 0px 0px;
 }
 
 .nav__logo .tea {
@@ -365,7 +376,7 @@ FEATURES ↓
     align-items: center;
     max-width: 1200px;
     width: 100%;
-    padding: 96px 25px;
+    padding: 96px 0px;
 }
 
 .features__section--row {
@@ -469,7 +480,7 @@ QUALITY WORK ↓
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px 0px 30px 0px;
+    padding: 96px 0px;
 }
 
 .quality__row {
@@ -491,12 +502,10 @@ QUALITY WORK ↓
 }
 
 .quality__title {
-    display: flex;
-    flex-direction: column;
     font-size: 48px;
     font-weight: 900;
     padding: 10px 0px 10px 0px;
-    max-width: 600px;
+    max-width: 550px;
 }
 
 .quality__para {
@@ -534,10 +543,6 @@ STEPS ↓
 #steps {
     max-width: 1200px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    position: relative;
     padding: 60px 0px;
 }
 
