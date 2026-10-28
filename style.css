@@ -826,9 +826,16 @@ MOBILE RESPONSIVENESS ↓
        
     }
 
+    .quality__title {
+        font-size: 36px;
+        padding-right: 24px;
+    }
+
     .quality__para {
        font-size: 16px;
        max-width: 424px;
+       padding-right: 20px;
+       line-height: 1.70rem;
     }
 
     footer {
@@ -837,169 +844,194 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 970px) {
-  .quality__email--input {
-    padding: 8px 20px;
-    outline: none;
-    border-radius: 38px;
-    padding-right: 80px;
-    border: 2px solid #ccc;
-    font-size: 8px;
-  }
+    .quality__email--input {
+       padding: 8px 20px;
+       outline: none;
+       border-radius: 38px;
+       padding-right: 80px;
+       border: 2px solid #ccc;
+       font-size: 8px;
+    }
 
-  .quality__submit--button {
-    background-color: #6415ff;
-    color: white;
-    border: none;
-    padding: 6px 18px;
-    border-radius: 32px;
-    margin-left: -60px;
-    font-size: 8px;
-  }
+    .quality__submit--button {
+       background-color: #6415ff;
+       color: white;
+       border: none;
+       padding: 6px 18px;
+       border-radius: 32px;
+       margin-left: -60px;
+       font-size: 8px;
+    }
 }
 
 @media (max-width: 800px) {
-  .nav__links {
-    display: none;
-  }
+    .nav__links {
+       display: none;
+    }
 
-  .quality__nav--row {
-    display: none;
-  }
+    .quality__nav--row {
+      display: none;
+    }
 
-  .quality__header--img {
-    display: none;
-  }
+    .quality__header--img {
+      display: none;
+    }
 }
 
 @media (max-width: 768px) {
-  .services {
-    flex-direction: column;
-  }
+    .services {
+       flex-direction: column;
+    }
 
-  .features__section--row {
-    font-size: 18px;
-    font-weight: 700;
-  }
+    .features__section--row {
+       font-size: 18px;
+       font-weight: 700;
+    }
 
-  .features__title {
-    padding: 0px 10px;
-    text-align: center;
-  }
+    .features__title {
+       padding: 0px 10px;
+       text-align: center;
+    }
 
-  .features__para {
-    font-size: 14px;
-    max-width: 580px;
-  }
+    .features__para {
+       font-size: 14px;
+       max-width: 580px;
+    }
 
-  #values .row {
-    flex-direction: column-reverse;
-  }
-  #steps .row,
-  #testimonials .row {
-    flex-direction: column;
-    align-items: center;
-  }
-  #pricing .row {
-    margin-top: 40px;
-  }
+    .quality__row {
+       display: flex;
+       max-width: 665px;
+       width: 100%;
+       flex-direction: column-reverse;
+    }
+
+    .quality__container--uno {
+       max-width: 665px;
+       width: 100%;
+    }
+
+    .quality__row--one {
+       padding-top: 40px;
+    }
+
+    .quality__img--two {
+       max-width: 500px;
+       width: 100%;
+    }
+
+    #values .row {
+        flex-direction: column-reverse;
+    }
+
+    #steps .row,
+    #testimonials .row {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    #pricing .row {
+       margin-top: 40px;
+    }
 }
 
 @media (max-width: 640px) {
-  .container {
-    padding: 50px 30px;
-  }
-  .nav__logo {
-    margin: 8px 0;
-    padding-bottom: 4px;
-  }
-  main {
-    margin-bottom: 80px;
-  }
+    .container {
+       padding: 50px 30px;
+    }
 
-  .service__para {
-    font-size: 14px;
-  }
+    .nav__logo {
+       margin: 8px 0;
+       padding-bottom: 4px;
+    }
 
-  .header__email--button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    align-items: stretch;
-  }
+    main {
+       margin-bottom: 80px;
+    }
 
-  .email__input {
-    width: 100%;
-    padding: 18px 20px;
-    border-radius: 38px;
-  }
+    .service__para {
+       font-size: 14px;
+    }
 
-  .submit__button {
-    padding: 18px 20px;
-    right: auto;
-    width: 100%;
-    border-radius: 38px;
-    position: static;
-  }
+    .header__email--button {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 12px;
+       align-items: stretch;
+    }
 
-  .header__title {
-    font-size: 30px;
-    text-align: center;
-    padding: 30px 0px 0px 0px;
-  }
+    .email__input {
+       width: 100%;
+       padding: 18px 20px;
+       border-radius: 38px;
+    }
 
-  .header__para {
-    font-size: 16px;
-    max-width: 512px;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-    line-height: 1.5;
-  }
+    .submit__button {
+       padding: 18px 20px;
+       right: auto;
+       width: 100%;
+       border-radius: 38px;
+       position: static;
+    }
 
-  .features__container {
-    align-items: center;
-  }
+    .header__title {
+       font-size: 30px;
+       text-align: center;
+       padding: 30px 0px 0px 0px;
+    }
 
-  .features__title {
-    font-size: 36px;
-  }
+    .header__para {
+       font-size: 16px;
+       max-width: 512px;
+       width: 100%;
+       text-align: center;
+       padding: 20px 0px 20px 0px;
+       line-height: 1.5;
+    }
 
-  .services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+    .features__container {
+       align-items: center;
+    }
 
-  .service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
+    .features__title {
+       font-size: 36px;
+    }
 
-  .service__img {
-    width: 65px;
-    height: 65px;
-    padding: 20px;
-    margin: 0 0 12px;
-    display: block;
-  }
+    .services {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
 
-  .service__title--section {
-    padding-left: 0;
-    text-align: center;
-  }
+    .service {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       width: 100%;
+    }
 
-  .service__title {
-    padding-top: 15px;
-    text-align: center;
-  }
+    .service__img {
+       width: 65px;
+       height: 65px;
+       padding: 20px;
+       margin: 0 0 12px;
+       display: block;
+    }
 
-  .service__para {
-    max-width: 336px;
-    text-align: center;
-  }
+    .service__title--section {
+       padding-left: 0;
+       text-align: center;
+    }
+
+    .service__title {
+       padding-top: 15px;
+       text-align: center;
+    }
+
+    .service__para {
+       max-width: 336px;
+       text-align: center;
+    }
 }
