@@ -547,6 +547,7 @@ STEPS ↓
   display: flex;
   max-width: 1200px;
   width: 100%;
+  gap: 3rem;
 }
 
 .steps__container--one {
@@ -592,8 +593,8 @@ STEPS ↓
 }
 
 .step__num {
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: 600;
   padding-right: 20px;
   color: rgb(203 213 224)
 }
@@ -912,6 +913,34 @@ MOBILE RESPONSIVENESS ↓
     .steps__container {
         display: flex;
         flex-direction: column;
+    }
+
+    .steps__container--one {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .section__steps {
+        font-size: 20px;
+    }
+
+    .step__one,
+    .step__two,
+    .step__three {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps__section--title {
+        font-size: 36px;
+    }
+
+    .steps__title--section_one {
+        align-items: left;
+    }
+
+    .step__para {
+        font-size: 14px;
     }
 
     #values .row {
