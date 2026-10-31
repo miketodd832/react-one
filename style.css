@@ -361,7 +361,7 @@ FEATURES ↓
   align-items: center;
   max-width: 1200px;
   width: 100%;
-  padding: 66px 0px;
+  padding: 66px 0px 0px 0px;
 }
 
 .features__section--row {
@@ -540,7 +540,7 @@ STEPS ↓
 #steps {
   max-width: 1200px;
   width: 100%;
-  padding: 60px 0px;
+  padding: 50px 0px;
   margin: 0 auto;
 }
 
@@ -1082,6 +1082,10 @@ MOBILE RESPONSIVENESS ↓
         width: 100%;
     }
 
+    .steps__img--hero {
+        max-width: 450px;
+    }
+
     .section__steps {
         font-size: 20px;
     }
@@ -1120,10 +1124,12 @@ MOBILE RESPONSIVENESS ↓
     .values__row {
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .values__container--two {
-        padding-top: 70px;
+        padding-top: 60px;
     }
 
     .values__container--two img {
@@ -1131,8 +1137,36 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .values__containerA {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 0;
+        max-width: 450px;
+    }
+
+    .icon__container {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .values__button {
+        align-self: center;
+    }
+
+    .dollarA,
+    .suitcaseA {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .values__section {
+        padding-top: 60px;
     }
 
     #testimonials .row {
