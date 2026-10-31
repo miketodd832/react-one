@@ -679,6 +679,14 @@ VALUES ↓
     border-radius: 50%;
     background:  rgb(173, 237, 173);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.fa-dollar-sign {
+    font-size: 22px;
+    line-height: 1;
 }
 
 .suitcase {
@@ -689,6 +697,14 @@ VALUES ↓
     border-radius: 50%;
     background: rgb(236, 166, 166);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.fa-suitcase {
+    font-size: 21px;
+    line-height: 1;
 }
 
 .values__container--two {
