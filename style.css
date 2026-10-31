@@ -671,6 +671,26 @@ VALUES ↓
     line-height: 1.6;
 }
 
+.dollar {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: none;
+    border-radius: 50%;
+    background:  rgb(173, 237, 173);
+    display: flex;
+}
+
+.suitcase {
+     width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(236, 166, 166);
+    display: flex;
+}
+
 .values__container--two {
     max-width: 600px;
     width: 100%;
