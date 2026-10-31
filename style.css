@@ -254,6 +254,7 @@ HEADER / ABOUT US ↓
   display: block;
   font-size: 16px;
   padding: 25px 0px 20px 0px;
+  color: #7b8491;
 }
 
 .header__content {
@@ -404,6 +405,7 @@ FEATURES ↓
   letter-spacing: 0.05em;
   font-weight: 400;
   text-align: center;
+  color: #72839a;
 }
 
 .header__img {
@@ -445,7 +447,7 @@ FEATURES ↓
 
 .service__para {
   width: 100%;
-  max-width: 240px;
+  max-width: 336px;
   padding-bottom: 50px;
   color: rgb(150, 141, 150);
   line-height: 1.8em;
@@ -692,7 +694,7 @@ VALUES ↓
     font-size: 18px;
     line-height: 1.6;
     padding: 0px 0px 25px 0px;
-    color: #7b8491;
+    color: #7C8BA1;
     
 }
 
@@ -704,7 +706,7 @@ VALUES ↓
 
 .values__paraB {
     font-size: 16px;
-    color: #6d7580;
+    color: #718096;
     line-height: 1.5;
     padding-bottom: 40px;
 }
@@ -996,6 +998,7 @@ MOBILE RESPONSIVENESS ↓
 @media (max-width: 768px) {
     .services {
        flex-direction: column;
+       align-items: center;
     }
 
     .features__section--row {
