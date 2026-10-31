@@ -633,20 +633,54 @@ VALUES ↓
 
 */
 
-#values .row {
+.value__container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+.values__row {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .values__section {
-  font-size: 18px;
+  font-size: 20px;
 }
+
+.values__containerA {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+}
+
 
 .values__title {
-  font-weight: 800;
+    font-size: 48px;
+  font-weight: 900;
+  padding: 15px 0px 30px 0px;
 }
 
+.values__para {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.values__container--two {
+    max-width: 600px;
+    width: 100%;
+}
+
+.values__container--two img{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
 /*
 
 PRICING ↓
