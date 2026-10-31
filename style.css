@@ -652,10 +652,25 @@ VALUES ↓
   font-size: 20px;
 }
 
+.icon__container {
+    display: flex;
+
+}
+
 .values__containerA {
     display: flex;
     flex-direction: column;
     max-width: 600px;
+    width: 100%;
+}
+
+.values__containerB {
+    max-width: 300px;
+    width: 100%;
+}
+
+.values__containerC {
+    max-width: 300px;
     width: 100%;
 }
 
@@ -669,6 +684,29 @@ VALUES ↓
 .values__para {
     font-size: 18px;
     line-height: 1.6;
+    padding: 0px 0px 25px 0px;
+    color: #7b8491;
+    
+}
+
+.icon__title {
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.values__paraB {
+    font-size: 16px;
+    color: #6d7580;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+.dollarA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 15px 0px;
 }
 
 .dollar {
@@ -689,6 +727,14 @@ VALUES ↓
     line-height: 1;
 }
 
+.suitcaseA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     padding: 0px 0px 15px 0px;
+
+}
+
 .suitcase {
      width: 40px;
     height: 40px;
@@ -705,6 +751,14 @@ VALUES ↓
 .fa-suitcase {
     font-size: 21px;
     line-height: 1;
+}
+
+.values__button {
+    background-color: #6415ff;
+    padding: 12px 22px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center; 
 }
 
 .values__container--two {
