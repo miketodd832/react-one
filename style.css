@@ -481,7 +481,7 @@ QUALITY WORK ↓
 
 .quality__row--one {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.12em;
 }
 
@@ -642,6 +642,7 @@ VALUES ↓
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 60px;
 }
 
 .values__row {
@@ -656,6 +657,8 @@ VALUES ↓
 .values__section {
   display: flex;
   font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .12em;
   
 }
 
@@ -794,10 +797,171 @@ PRICING ↓
 
 */
 
-#pricing .row {
+.pricing__container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.pricing__row {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.pricing__sect {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .12em;
+}
+
+.pricing__title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.plans__container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.plan__one {
+    border: #7C8BA1 2px solid;
+    border-radius: 10px;
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.plan__two {
+    background-color: #6415ff;
+    border-radius: 10px;
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.plan__three {
+    border: #7C8BA1 2px solid;
+    border-radius: 10px;
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.plan__two--header {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F7FAFC;
+    padding-top: 10px;
+}
+
+.price__two {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 20px 0px;
+    color: #F7FAFC;
+}
+
+.month__two {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F7FAFC;
+}
+
+.goods__two {
+    max-width: 306px;
+    width: 100%;
+}
+
+.quanity__two {
+    font-size: 20px;
+    color: #F7FAFC;
+}
+
+.goods__two p {
+    font-size: 20px;
+    color: #F7FAFC;
+}
+
+.price__button--three {
+    color: #6415ff;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    text-align: center; 
+    cursor: pointer;
+    align-items: center;
+}
+
+.price__button--two {
+    color: #6415ff;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color:#F7FAFC;
+    text-align: center; 
+    cursor: pointer;
+    align-items: center;
+}
+
+.price__button--one {
+    color: #6415ff;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background:linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    text-align: center; 
+    cursor: pointer;
+    align-items: center;
+}
+
+.goods {
+    max-width: 306px;
+    width: 100%;
+}
+
+.plan__header {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.month {
+    font-size: 16px;
+    font-weight: 600;
+    color: #7b8491;
+}
+
+.quanity {
+    font-size: 20px;
+}
+
+.goods p {
+    font-size: 20px;
+}
+
+.price__button {
+    font-size: 14px;
 }
 
 /* 
