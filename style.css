@@ -976,7 +976,7 @@ PRICING ↓
 .price__button--three {
     color: white;
     display: inline-block;
-    padding: 16px 92px;
+    padding: 16px 82px;
     border-radius: 30px;
     background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
     text-align: center; 
@@ -988,7 +988,7 @@ PRICING ↓
 .price__button--two {
     color: rgb(15, 56, 240);
     display: inline-block;
-    padding: 16px 92px;
+    padding: 16px 82px;
     border-radius: 30px;
     background-color:#F7FAFC;
     text-align: center; 
@@ -1000,7 +1000,7 @@ PRICING ↓
 .price__button--one {
     color: white;
     display: inline-block;
-    padding: 16px 92px;
+    padding: 16px 82px;
     border-radius: 30px;
     background:linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     text-align: center; 
@@ -1589,5 +1589,15 @@ MOBILE RESPONSIVENESS ↓
     .quality__title {
         padding-right: 0;
         padding: 20px 15px;
+    }
+}
+
+@media (max-width: 372px) {
+
+    .price__button--one,
+    .price__button--two,
+    .price__button--three {
+       white-space: nowrap;
+       padding: 16px 24px;
     }
 }
