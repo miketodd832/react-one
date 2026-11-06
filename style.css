@@ -1213,6 +1213,10 @@ MOBILE RESPONSIVENESS ↓
         margin: 0 auto;
     }
 
+    .pricing__para {
+        line-height: 26px;
+    }
+
 
     footer {
        padding: 80px 32px;
@@ -1443,7 +1447,7 @@ MOBILE RESPONSIVENESS ↓
 
     .pricing__para {
         font-size: 14px;
-        line-height: 1.625;
+        line-height: 22.75 px;
     }
 }
 
