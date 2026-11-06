@@ -853,7 +853,7 @@ PRICING ↓
 }
 
 .plan__one {
-    border: #7C8BA1 2px solid;
+    border: #7C8BA1 1px solid;
     border-radius: 10px;
     width: calc(100%/3);
     display: flex;
@@ -864,6 +864,9 @@ PRICING ↓
     padding: 0px 30px 0px 30px;
     margin: 64px 30px 0px 0px;
     flex: 1;
+    z-index: 100;
+    overflow: hidden;
+
 }
 
 .plan__two {
@@ -882,7 +885,7 @@ PRICING ↓
 }
 
 .plan__three {
-    border: #7C8BA1 2px solid;
+    border: #7C8BA1 1px solid;
     border-radius: 10px;
     width: calc(100%/3);
     display: flex;
@@ -893,6 +896,24 @@ PRICING ↓
     padding: 0px 30px 0px 30px;
     margin: 64px 30px 0px 0px;
     flex: 1;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.line__one {
+    background:linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    height: 8px;
+     width: calc(100% + 61px);
+    z-index: 1;
+
+}
+
+.line__three {
+    height: 8px;
+    background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    width: calc(100% + 61px);
+    z-index: 1;
+
 }
 
 .plan__one--one {
@@ -900,12 +921,12 @@ PRICING ↓
 }
 
 .plan__one--two {
-    max-width:330px;
-    width: 100%;
+    max-width: none;
+    width: calc(100% + 60px);
     padding: 32px;
     margin: 0 -30px;
-    border-top: 2px solid #7C8BA1;
-    border-bottom: 2px solid #7C8BA1;
+    border-top: 1px solid #7C8BA1;
+    border-bottom: 1px solid #7C8BA1;
 
 }
 
@@ -913,7 +934,7 @@ PRICING ↓
     font-size: 20px;
     font-weight: 700;
     color: #243e63;
-    line-height: 1.2;
+    line-height: 32.5px;
     display: block;
     margin: 0;
 }
@@ -923,7 +944,7 @@ PRICING ↓
     font-size: 20px;
     font-weight: 700;
     color: #F7FAFC;
-    line-height: 1.2;
+    line-height: 32.5px;
     display: block;
     margin: 0;
 }
@@ -933,18 +954,24 @@ PRICING ↓
     font-weight: 700;
     margin: 4px 0px;
     color: #F7FAFC;
+    line-height: 78px;
 }
 
 .price {
     font-size: 48px;
     font-weight: 700;
     margin: 4px 0px;
+    line-height: 78px;
 }
 
 .month__two {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     color: #F7FAFC;
+    letter-spacing: 0.1em;
+    line-height: 26px;
+
+
 }
 
 .goods__two {
@@ -1006,8 +1033,10 @@ PRICING ↓
 
 .month {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     color: #7b8491;
+    letter-spacing: 0.1em;
+    line-height: 26px;
 }
 
 .quanity {
@@ -1197,8 +1226,9 @@ MOBILE RESPONSIVENESS ↓
         max-width: 370px;
         width: 100%;
         margin: 0 auto;
-
     }
+
+
     footer {
        padding: 80px 32px;
     }
