@@ -1049,8 +1049,42 @@ TESTIMONIALS ↓
 
 */
 
-#testimonials .row {
+#testimonials {
+  margin: 0 auto;
   display: flex;
+}
+
+.test__container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.test__row {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.test__container--one {
+    display: flex;
+    max-width: 1200px;
+    width: 50%;
+}
+
+.test__container--two {
+    display: flex;
+    max-width: 1200px;
+    width: 50%;
+}
+
+.test__container--one img {
+    max-width: fit-content;
+    width: 100%;
 }
 
 /* 
