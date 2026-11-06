@@ -900,8 +900,10 @@ PRICING ↓
 }
 
 .plan__one--two {
+    max-width:330px;
+    width: 100%;
     padding: 32px;
-    margin: 0px -32px;
+    margin: 0 -30px;
     border-top: 2px solid #7C8BA1;
     border-bottom: 2px solid #7C8BA1;
 
