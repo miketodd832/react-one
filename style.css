@@ -1086,6 +1086,15 @@ TESTIMONIALS ↓
     flex-direction: column;
 }
 
+.five__star {
+    color: gold;
+}
+
+
+.five__star i {
+    background-color: gold;
+}
+
 .test__container--one img {
     max-width: fit-content;
     width: 100%;
