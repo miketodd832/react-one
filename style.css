@@ -902,6 +902,9 @@ PRICING ↓
 .plan__one--two {
     padding: 32px;
     margin: 0px -32px;
+    border-top: 2px solid #7C8BA1;
+    border-bottom: 2px solid #7C8BA1;
+
 }
 
 .plan__header {
