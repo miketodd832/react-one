@@ -1086,13 +1086,8 @@ TESTIMONIALS ↓
     flex-direction: column;
 }
 
-.five__star {
+.five__star .fa-star {
     color: gold;
-}
-
-
-.five__star i {
-    background-color: gold;
 }
 
 .test__container--one img {
@@ -1102,8 +1097,30 @@ TESTIMONIALS ↓
 
 .test__row--two {
     display: flex;
-    max-width: 1200px;
-    width: 50%;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.title {
+    font-size: 16px;
+    color: #7C8BA1;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.row__two--container_two-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .row__two--container_one {
@@ -1113,6 +1130,9 @@ TESTIMONIALS ↓
     height: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 25px;
+
 }
 
 .row__two--container_one-pic {
@@ -1127,7 +1147,79 @@ TESTIMONIALS ↓
     width: 100%;
     max-height: 80px;
     height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
+.row__two--container_two {
+    display: flex;
+    gap: 10px;
+}
+
+.test__button--one {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border: none #EDF2F7;
+    border-radius: 50%;
+    background-color: #EDF2F7;
+    align-items: center;
+    justify-content: center;
+}
+
+.test__button--two {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border: none #EDF2F7;
+    border-radius: 50%;
+    background-color: #EDF2F7;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.test__sec {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+}
+
+.test__header {
+    color: #243E63;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    margin: 16px 0px 0px;
+}
+
+.test__one--para {
+    color: rgb(124, 139, 161);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 24px 0px 40px;
+}
+
+.five__star {
+    line-height: 24px;
+}
+
+.comments {
+    font-size: 20px;
+    margin: 16px 0px 0px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.comments__para {
+    font-size: 16px;
+    margin:  16px 0px 40px;
+    color:  rgb(74, 85, 104);
+    font-weight: 500;
+    line-height:  26px;
 }
 
 /* 
