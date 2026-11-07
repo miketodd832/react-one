@@ -1354,10 +1354,21 @@ Faqs
     transition: 0.8s ease;
 }
 
+.faqs__answer--one p {
+    text-align: left;
+}
+
 .quest__one {
     margin: 20px 0px;
 }
 
+.quest__one[open] > .faqs__quest--one {
+    border-radius: 8px 8px 0 0;
+}
+
+.quest__one[open] > .faqs__answer--one {
+    border-radius: 0 0 8px 8px;
+}
 
 
 
@@ -1539,6 +1550,21 @@ MOBILE RESPONSIVENESS ↓
 
     footer {
        padding: 80px 32px;
+    }
+
+    .faqs__para {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .faqs__quest--one_one {
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+    }
+
+    .faqs__answer--one p {
+        font-size: 17px;
     }
 }
 
@@ -1808,6 +1834,11 @@ MOBILE RESPONSIVENESS ↓
         line-height: 22.75px;
     }
 
+    .faqs__para {
+        font-size: 14px;
+        line-height: 22.75px;
+    }
+
     
 }
 
@@ -1962,6 +1993,16 @@ MOBILE RESPONSIVENESS ↓
 
     .row__two--container_two {
         padding-top: 20px;
+    }
+
+    .faqs__header {
+        font-size: 36px;
+        letter-spacing: 0.9px;
+        line-height: 54px;
+    }
+
+    .faqs__answer--one p {
+        font-size: 14px;
     }
         
 }
