@@ -1086,10 +1086,6 @@ TESTIMONIALS ↓
     flex-direction: column;
 }
 
-.five__star .fa-star {
-    color: gold;
-}
-
 .test__container--one img {
     max-width: fit-content;
     width: 100%;
@@ -1205,6 +1201,17 @@ TESTIMONIALS ↓
 
 .five__star {
     line-height: 24px;
+}
+
+.five__star svg path {
+    color: gold;
+}
+
+.test__button--two svg path {
+    color: #6415ff;
+}
+.test__button--one svg path {
+    color: #6415ff;
 }
 
 .comments {
@@ -1618,6 +1625,32 @@ MOBILE RESPONSIVENESS ↓
         font-size: 14px;
         line-height: 22.75 px;
     }
+
+    .test__row {
+        flex-direction: column;
+    }
+
+    .test__container--one {
+        max-width: 448px;
+        width: 100%;
+    }
+
+    .test__container--two {
+        max-width: 448px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row__two--container_two {
+        justify-content: space-between;
+    }
+
+    .row__two--container_two-info {
+        
+    }
+
+    
 }
 
 @media (max-width: 638px) {
