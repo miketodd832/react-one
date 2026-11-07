@@ -39,7 +39,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 96px 0px;
+  padding: 80px 0px;
 }
 
 main {
@@ -352,7 +352,7 @@ FEATURES ↓
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 96px 0px;
+  padding: 80px 0px;
 }
 
 .features__container {
@@ -466,7 +466,7 @@ QUALITY WORK ↓
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 96px 0px;
+  padding: 80px 0px;
 }
 
 .quality__row {
@@ -539,7 +539,7 @@ STEPS ↓
 #steps {
   max-width: 1200px;
   width: 100%;
-  padding: 96px 0px;
+  padding: 80px 0px;
   margin: 0 auto;
 }
 
@@ -632,7 +632,7 @@ VALUES ↓
 */
 
 #values {
-    padding: 96px 0px;
+    padding: 80px 0px;
 }
 
 .value__container {
@@ -797,7 +797,7 @@ PRICING ↓
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 96px 0px;
+    padding: 80px 0px;
 }
 
 .pricing__container {
@@ -1052,6 +1052,7 @@ TESTIMONIALS ↓
 #testimonials {
   margin: 0 auto;
   display: flex;
+  padding: 80px 0px;
 }
 
 .test__container {
@@ -1116,13 +1117,12 @@ TESTIMONIALS ↓
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    white-space: nowrap;
 }
 
 .row__two--container_one {
     max-width: 249px;
     width: 100%;
-    max-height: 80px;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -1145,6 +1145,8 @@ TESTIMONIALS ↓
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+    flex-shrink: 0;
+    
 }
 
 .row__two--container_two {
@@ -1393,6 +1395,17 @@ MOBILE RESPONSIVENESS ↓
         line-height: 26px;
     }
 
+    .test__header {
+        font-size: 36px;
+    }
+
+    .test__one--para {
+        font-size: 16px;
+    }
+
+    .comments {
+        line-height: 26px;
+    }
 
     footer {
        padding: 80px 32px;
@@ -1647,7 +1660,13 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .row__two--container_two-info {
-        
+        white-space: nowrap;
+        align-items: flex-start;
+    }
+
+    .test__one--para {
+        font-size: 14px;
+        line-height: 22.75px;
     }
 
     
@@ -1780,6 +1799,28 @@ MOBILE RESPONSIVENESS ↓
         letter-spacing: .9px;
     }
 
+    .test__header {
+        font-size: 30px;
+        line-height: 37.5px;
+        letter-spacing: .75px;
+    }
+
+    .row__two--container_one{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .test__row--two {
+        flex-direction: column;
+    }
+
+    .row__two--container_one {
+        max-width: 64px;
+        max-height: 64px;
+    }
+
+    
+        
 }
 
 @media (max-width: 435px) {
