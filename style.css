@@ -1245,6 +1245,95 @@ TESTIMONIALS ↓
     line-height:  26px;
 }
 
+/*
+Faqs
+*/
+
+#faqs {
+    height: 3000px;
+}
+
+.faqs__container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.faqs__container--one {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.faqs__sec {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 0px 16px;
+}
+
+.faqs__header {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 72px;
+}
+
+.faqs__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7C8BA1;
+    margin: 16px 0px 0px;
+    line-height: 29.25px;
+}
+
+.faqs__container--two {
+    max-width: 1200px;
+    width: 100%;
+    margin: 48px 0px 0px;
+}
+
+.faqs__quest--one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    border: none;
+    background-color: #EDF2F7;
+}
+
+.faqs__quest--one_one {
+    padding: 15px 25px;
+    line-height: 27px;
+}
+
+.faqs__quest--one::-webkit-details-marker {
+    display: none;
+}
+
+.faqs__icon {
+    width: 12px;
+    height: 12px;
+    flex: 0 0 12px;
+    border-right: 2px solid #243e63;
+    border-bottom: 2px solid #243e63;
+    transform: rotate(45deg);
+    transition: transform 180ms ease;
+}
+
+.faqs[open] .faq__icon {
+    transform: rotate(225deg);
+}
+
+.faqs__answer--one {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+
+
 /* 
 
 START / CALL TO ACTION ↓
