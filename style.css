@@ -1301,11 +1301,17 @@ Faqs
     list-style: none;
     border: none;
     background-color: #EDF2F7;
+    padding: 16px 40px;
+    margin-top: 24px;
+    border-radius: 8px;
 }
 
 .faqs__quest--one_one {
-    padding: 15px 25px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 10px 0px;
     line-height: 27px;
+
 }
 
 .faqs__quest--one::-webkit-details-marker {
@@ -1322,14 +1328,18 @@ Faqs
     transition: transform 180ms ease;
 }
 
-.faqs[open] .faq__icon {
+.quest__one[open] .faqs__icon {
     transform: rotate(225deg);
 }
 
 .faqs__answer--one {
     padding-top: 20px;
-    font-size: 20px;
-    line-height: 1.65;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #EDF2F7;
+    margin: 24px 0px 0px;
+    padding: 16px 40px;
+    border-radius: 8px;
 }
 
 
