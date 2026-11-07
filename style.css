@@ -1433,6 +1433,10 @@ MOBILE RESPONSIVENESS ↓
     }
 }
 
+@media (max-width: 837px){
+
+    
+}
 @media (max-width: 800px) {
     .nav__links {
        display: none;
