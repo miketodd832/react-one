@@ -1250,16 +1250,22 @@ Faqs
 */
 
 #faqs {
-    height: 3000px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .faqs__container {
     max-width: 1200px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .faqs__container--one {
-    max-width: 1200px;
+    max-width: 576px;
     width: 100%;
 }
 
@@ -1291,6 +1297,8 @@ Faqs
 }
 
 .faqs__quest--one {
+    max-width: 900px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1304,12 +1312,10 @@ Faqs
     padding: 16px 40px;
     margin-top: 24px;
     border-radius: 8px;
+    margin: 0;
 }
 
 .faqs__quest--one_one {
-    max-width: 1200px;
-    width: 100%;
-    padding: 10px 0px;
     line-height: 27px;
 
 }
@@ -1325,7 +1331,7 @@ Faqs
     border-right: 2px solid #243e63;
     border-bottom: 2px solid #243e63;
     transform: rotate(45deg);
-    transition: transform 180ms ease;
+    transition: transform 280ms ease;
 }
 
 .quest__one[open] .faqs__icon {
@@ -1333,6 +1339,8 @@ Faqs
 }
 
 .faqs__answer--one {
+    max-width: 900px;
+    width: 100%;
     padding-top: 20px;
     font-size: 18px;
     line-height: 26px;
@@ -1340,7 +1348,14 @@ Faqs
     margin: 24px 0px 0px;
     padding: 16px 40px;
     border-radius: 8px;
+    margin: 0;
+    transition: 0.8s ease;
 }
+
+.quest__one {
+    margin: 20px 0px;
+}
+
 
 
 
