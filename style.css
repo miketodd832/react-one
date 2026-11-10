@@ -9,7 +9,7 @@
 }
 
 body {
-  max-width: 100% vw;
+  max-width: 100vw;
   overflow-x: hidden;
   padding: 0px 32px;
 }
@@ -44,7 +44,6 @@ body {
 
 main {
   margin-bottom: 96px;
-  padding: 0px 0px;
 }
 
 /*
@@ -699,7 +698,7 @@ VALUES ↓
 
 
 .values__title {
-    font-size: 48px;
+  font-size: 48px;
   font-weight: 900;
   padding: 15px 0px 30px 0px;
 }
@@ -1127,6 +1126,7 @@ TESTIMONIALS ↓
     line-height: 24px;
 
 }
+
 .row__two--container_two-info {
     display: flex;
     flex-direction: column;
@@ -1394,7 +1394,7 @@ START / CALL TO ACTION ↓
   max-width: 1200px;
   width: 100%;
   display: flex;
-  margin: 0px 78px;
+  margin: 0px 8px;
   padding: 0px 16px;
 }
 
@@ -1422,8 +1422,8 @@ START / CALL TO ACTION ↓
 
 .card__two {
     display: flex;
-    margin-left: auto;
     flex-wrap: nowrap;
+    margin-left: auto;
     
 }
 
@@ -1460,12 +1460,14 @@ FOOTER ↓
 */
 
 footer {
-  padding: 96px 32px;
+  padding: 80px 0px;
   background-color: rgb(100, 21, 255);
   margin-bottom: -32px;
   position: relative;
   overflow: hidden;
 }
+
+.footer__
 
 /* 
 
@@ -1473,16 +1475,8 @@ MOBILE RESPONSIVENESS ↓
 
 */
 
-@media (max-width: 1280px) {
-}
-
-@media (max-width: 1240px) {
-}
-
-@media (max-width: 1130px) {
-}
-
 @media (max-width: 1024px) {
+
     .container {
        padding: 30px 30px 0px 30px;
     }
