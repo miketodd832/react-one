@@ -48,13 +48,13 @@ landing
   justify-content: center;
   width: 100%;
   padding-bottom: 80px;
-  animation: slide-infrom-left 500ms ease-in;
+  animation: slide-outfrom-left 600ms ease-in;
 }
 
-@keyframes slide-infrom-right {
+@keyframes slide-outfrom-right {
   from {
     opacity: 0;
-    transform: translateX(10000);
+    transform: translateX(1000px);
   }
   to {
     opacity: 1;
@@ -63,7 +63,7 @@ landing
 
 }
 
-@keyframes slide-infrom-left {
+@keyframes slide-outfrom-left {
   from {
     opacity: 0;
     transform: translateX(-1000px);
@@ -400,7 +400,7 @@ FEATURES ↓
   width: 100%;
   margin: 0 auto;
   padding: 80px 0px;
-  animation: slide-infrom-right 700ms ease-in;
+  animation: slide-outfrom-right 600ms ease-in;
 }
 
 .features__container {
@@ -521,7 +521,7 @@ QUALITY WORK ↓
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 0px;
-  animation: slide-infrom-left 700ms ease-in;
+  animation: slide-outfrom-left 600ms ease-in;
 }
 
 .quality__row {
@@ -597,7 +597,7 @@ STEPS ↓
   width: 100%;
   padding: 80px 0px;
   margin: 0 auto;
-  animation: slide-infrom-right 700ms ease-in;
+  animation: slide-outfrom-right 600ms ease-in;
 }
 
 .steps__container {
@@ -690,7 +690,7 @@ VALUES ↓
 
 #values {
     padding: 80px 0px;
-    animation: slide-infrom-left 700ms ease-in;
+    animation: slide-outfrom-left 600ms ease-in;
 }
 
 .value__container {
@@ -856,7 +856,7 @@ PRICING ↓
     text-align: center;
     justify-content: center;
     padding: 80px 0px;
-    animation: slide-infrom-right 700ms ease-in;
+    animation: slide-outfrom-right 600ms ease-in;
 }
 
 .pricing__container {
@@ -1112,7 +1112,7 @@ TESTIMONIALS ↓
   margin: 0 auto;
   display: flex;
   padding: 80px 0px;
-  animation: slide-infrom-left 700ms ease-in;
+  animation: slide-outfrom-left 600ms ease-in;
 }
 
 .test__container {
@@ -1302,7 +1302,7 @@ Faqs
     text-align: center;
     margin: 0 auto;
     padding: 80px 0px;
-    animation: slide-infrom-right 700ms ease-in;
+    animation: slide-outfrom-right 600ms ease-in;
 }
 
 .faqs__container {
@@ -1428,7 +1428,7 @@ START / CALL TO ACTION ↓
 
 #start{
     padding: 80px 0px;
-    animation: start-enter 700ms ease-out both;
+    animation: slide-outfrom-left 600ms ease-in;
 }
 
 .start__container {
