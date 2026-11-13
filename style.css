@@ -51,7 +51,7 @@ landing
   animation: slide-infrom-left 500ms ease-in;
 }
 
-@keyframes slide-outfrom-right {
+@keyframes slide-infrom-right {
   from {
     opacity: 0;
     transform: translateX(10000);
