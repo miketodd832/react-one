@@ -233,6 +233,14 @@ HEADER / ABOUT US ↓
 
 */
 
+.header,
+.header__container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
 .landing__container {
   display: flex;
   flex-direction: column;
@@ -254,7 +262,6 @@ HEADER / ABOUT US ↓
 }
 
 .header__title {
-  display: block;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
