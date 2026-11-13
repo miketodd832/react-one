@@ -239,7 +239,7 @@ HEADER / ABOUT US ↓
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  
+
 }
 
 .header__row {
@@ -267,10 +267,11 @@ HEADER / ABOUT US ↓
 }
 
 .header__content {
-  text-align: center;
+  text-align: left;
   width: 100%;
   flex-direction: column;
   justify-content: center;
+  align-items: left;
 }
 
 .header__img--container {
