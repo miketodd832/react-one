@@ -1515,6 +1515,12 @@ footer {
   overflow: hidden;
 }
 
+.footer__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .footer__row {
   display: flex;
   flex-direction: column;
@@ -1564,6 +1570,7 @@ footer {
     margin: -48px 0px 0px;
     flex-wrap: wrap;
     line-height: 24px;
+    padding-bottom: 64px;
 
 }
 
@@ -1576,7 +1583,10 @@ footer {
 .footer__copyright--row {
     display: flex;
     flex-direction: row;
-    align-items: space-between;
+    justify-content: space-between;
+    padding-top: 64px;
+    align-items: center;
+
 
 }
 
@@ -1584,6 +1594,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 8px;
+    align-items: center;
 }
 
 .logo--name {
