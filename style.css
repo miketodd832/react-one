@@ -1518,13 +1518,14 @@ footer {
 
 .footer__container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
+  flex-direction: column;
 }
 
-.footer__header--column {
+.footer__column .footer__header--column  {
     font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
     color: #F7FAFC;
     text-decoration: none;
 }
@@ -1537,6 +1538,65 @@ footer {
     gap: 12px;
 }
 
+.footer__header--column ,a {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 21px;
+    list-style-position:outside;
+    padding-bottom: 4px;
+    text-align: left;
+    color: #F7FAFC;
+    text-decoration: none;
+}
+
+.footer__header--column ,a:hover {
+    color: #EDF2F7;
+    text-decoration: underline solid 1.5px #EDF2F7;
+
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin: -48px 0px 0px;
+    flex-wrap: wrap;
+    line-height: 24px;
+
+}
+
+.footer__logo--continer, img {
+    max-width: 32px;
+    height: 32px;
+}
+
+.footer__copyright--row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.footer__logo--continer {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.logo--name {
+    display: flex;
+    color: #F7FAFC;
+    font-size: 20px;
+    margin: 0px 0px 0px 8px;
+    font-weight: 700;
+}
+
+.copy__date {
+    display: flex;
+    color: #F7FAFC;
+}
 /* 
 
 MOBILE RESPONSIVENESS ↓
