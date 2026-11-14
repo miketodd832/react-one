@@ -1515,9 +1515,10 @@ footer {
   overflow: hidden;
 }
 
-.footer__container {
+.footer__row {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__column .footer__header--column  {
@@ -1579,7 +1580,7 @@ footer {
 
 }
 
-.footer__logo--continer {
+.footer__logo--container {
     display: flex;
     flex-direction: row;
     gap: 8px;
