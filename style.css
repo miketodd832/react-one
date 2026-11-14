@@ -584,6 +584,7 @@ QUALITY WORK ↓
 .quality__img--two {
   max-width: 600px;
   width: 100%;
+  height: auto;
 }
 
 /* 
@@ -620,6 +621,7 @@ STEPS ↓
 .steps__img--hero {
     max-width: 600px;
     width: 100%;
+    height: auto;
 }
 
 .steps__section--title {
@@ -1147,9 +1149,10 @@ TESTIMONIALS ↓
     flex-direction: column;
 }
 
-.test__container--one img {
-    max-width: fit-content;
-    width: 100%;
+.test__img {
+    display: flex;
+    max-width: 600px;
+    width:100%;
 }
 
 .test__row--two {
@@ -1567,7 +1570,7 @@ footer {
 
 }
 
-.footer__logo--continer, img {
+.footer__logo {
     max-width: 32px;
     height: 32px;
 }
@@ -1576,6 +1579,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: space-between;
+
 }
 
 .footer__logo--continer {
