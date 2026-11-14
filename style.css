@@ -459,10 +459,6 @@ FEATURES ↓
   color: #7C8BA1;
 }
 
-.header__img {
-  display: flex;
-}
-
 .services {
   display: flex;
   flex-wrap: wrap;
@@ -1571,6 +1567,7 @@ footer {
 }
 
 .footer__logo {
+    display: flex;
     max-width: 32px;
     height: 32px;
 }
@@ -1600,6 +1597,34 @@ footer {
     display: flex;
     color: #F7FAFC;
 }
+
+.footer__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 2px none white;
+    background-color:  white;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0px 0px 0px 16px;
+}
+
+.service__img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(240, 226, 240);
+    border-radius: 50%;
+    padding: 8px;
+}
+
 /* 
 
 MOBILE RESPONSIVENESS ↓
