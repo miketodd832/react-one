@@ -1508,9 +1508,11 @@ FOOTER ↓
 */
 
 footer {  
+  margin: 0;
   padding: 80px 0px;
   background-color: rgb(100, 21, 255);
-  margin-bottom: -32px;
+  margin: 0px -32px 0px -32px;
+  padding: 0px 32px;
   position: relative;
   overflow: hidden;
 }
@@ -1525,6 +1527,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 60px 0px 70px 0px;
 }
 
 .footer__column .footer__header--column  {
