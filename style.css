@@ -1442,8 +1442,9 @@ START / CALL TO ACTION ↓
   max-width: 1200px;
   width: 100%;
   display: flex;
-  margin: 0px 8px;
+  margin: 0px 38px;
   padding: 0px 16px;
+  justify-content: space-between;
 }
 
 .card__container {
@@ -1455,7 +1456,6 @@ START / CALL TO ACTION ↓
     border-radius: 8px;
     display: flex;
     align-items: center;
-    justify-content: center;
 
 }
 
@@ -1470,9 +1470,8 @@ START / CALL TO ACTION ↓
 
 .card__two {
     display: flex;
-    flex-wrap: nowrap;
-    margin-left: auto;
-    
+    align-items: center; 
+    line-height: 24px; 
 }
 
 
@@ -1486,7 +1485,6 @@ START / CALL TO ACTION ↓
    padding: 20px 40px;
    border-radius: 43.2px;
    margin-right: 32px;
-   white-space: nowrap;
 }
 
 .butt__two {
