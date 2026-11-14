@@ -1507,7 +1507,7 @@ FOOTER ↓
 
 */
 
-footer {
+footer {  
   padding: 80px 0px;
   background-color: rgb(100, 21, 255);
   margin-bottom: -32px;
@@ -1567,7 +1567,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-    margin: -48px 0px 0px;
+    margin: 0px 0px 0px 0px;
     flex-wrap: wrap;
     line-height: 24px;
     padding-bottom: 64px;
@@ -1791,10 +1791,6 @@ MOBILE RESPONSIVENESS ↓
 
     .comments {
         line-height: 26px;
-    }
-
-    footer {
-       padding: 80px 32px;
     }
 
     .faqs__para {
@@ -2099,6 +2095,11 @@ MOBILE RESPONSIVENESS ↓
     .faqs__para {
         font-size: 14px;
         line-height: 22.75px;
+    }
+
+    .footer__links {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     
