@@ -2129,16 +2129,29 @@ MOBILE RESPONSIVENESS ↓
 @media (max-width:640px) {
 
     .footer__links {
-        display: flex;
+        flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .footer__column {
-        max-width: 110px;
-        min-width: none;
-        padding: 0px 16px;
+        flex: 0 1 auto;
+        max-width: none;
+        width: auto;
+        min-width: 0;
+        padding: 0px 0px;
+        text-align: center;
+        align-items: center;
 
+    }
+
+    .footer__column .footer__header--column,
+    .footer__column a {
+        white-space: nowrap;
+    }
+
+    .footer__column a {
+        font-size: 12px;
     }
 
 }
@@ -2365,6 +2378,15 @@ MOBILE RESPONSIVENESS ↓
     .footer__column {
         max-width: 113px;
         width: 100%;
+    }
+
+}
+
+@media (max-width: 624px){
+    
+    .footer__links {
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
